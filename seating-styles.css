@@ -21,7 +21,8 @@ body {
     margin-left: 30px;
     border-radius: 15%;
     /* Make the button more round */
-
+    text-decoration: none;
+    color:white;
     transition: all 0.3s ease;
     /* Smooth transition for hover effects */
 
