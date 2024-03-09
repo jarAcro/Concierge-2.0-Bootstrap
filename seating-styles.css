@@ -12,7 +12,7 @@ body {
     height: 250px;
     text-align: center;
     line-height: 220px;
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -55,13 +55,13 @@ body {
 }
 
 .button-102 {
-    top: 69%;
-    left: 52%;
+    top: 68.5%;
+    left: 51.5%;
 }
 
 .button-103 {
     top: 53%;
-    left: 37%;
+    left: 37.7%;
 }
 
 .button-104 {
@@ -78,34 +78,37 @@ body {
     top: 37%;
     left: 55.6%;
 }
-
+/*-------------------------------------------------------------------------------------------*/
+.button-200 {
+    top: 85%;
+    left: 47.4%;
+}
 .button-201 {
-    top: 79%;
-    left: 37%;
+    top: 79.7%;
+    left: 36.5%;
 }
 
 .button-202 {
     top: 80%;
-    left: 40%;
+    left: 58%;
 }
 
 .button-203 {
-    top: 81%;
-    left: 43%;
+    top: 61%;
+    left: 29%;
 }
 
 .button-204 {
-    top: 82%;
-    left: 46%;
+    top: 62%;
+    left: 66%;
 }
 
 .button-205 {
-    top: 83%;
-    left: 49%;
+    top: 42.4%;
+    left: 29%;
 }
 
 .button-206 {
-    top: 84%;
-    left: 52%;
+    top: 42%;
+    left: 66%;
 }
-/* ... and so on for each button ... */

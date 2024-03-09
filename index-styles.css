@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-.rounded-square {
+.seating-button {
     width: 300px;
     height: 300px;
     margin-top: 60px;
@@ -29,6 +29,7 @@ body {
     display: inline-block;
     line-height: 200px;
     transition: all 0.3s ease;
+    font-size: 30px;
 }
 
 .rounded-square:hover {
