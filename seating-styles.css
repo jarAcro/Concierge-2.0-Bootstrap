@@ -1,0 +1,55 @@
+body {
+    background-image: url('/images/seatingmap.jpg');
+    background-size: 55%;
+    /* Adjust the width and height of the background image */
+    background-position: 45% 7%;
+    /* Adjust the position of the background image */
+    background-repeat: no-repeat;
+}
+
+.back-button {
+    width: 280px;
+    height: 250px;
+    text-align: center;
+    line-height: 220px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15%;
+    /* Make the button more round */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.back-button:hover {
+    background-color: blue;
+    /* Change color to blue when hovered */
+    transform: scale(1.1);
+    /* Increase size when hovered */
+}
+
+.button-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    position: absolute;
+}
+
+/* Add more classes to position each button */
+.button-1 {
+    top: 20%;
+    left: 20%;
+}
+
+.button-2 {
+    top: 20%;
+    left: 30%;
+}
+
+/* ... and so on for each button ... */

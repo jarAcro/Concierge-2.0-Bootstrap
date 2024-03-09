@@ -1,33 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seating Map</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <style>
-        body {
-            background-image: url('/images/seatingmap.jpg');
-            background-size: 55%; /* Adjust the width and height of the background image */
-            background-position: 45% 7%; /* Adjust the position of the background image */
-            background-repeat: no-repeat;
-        }
-        .button-circle {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: red;
-            border: none;
-            position: absolute;
-        }
-        /* Add more classes to position each button */
-        .button-1 { top: 10%; left: 20%; }
-        .button-2 { top: 20%; left: 30%; }
-        /* ... and so on for each button ... */
-    </style>
+    <link rel="stylesheet" type="text/css" href="seating-styles.css">
+    
 </head>
+
 <body>
     <div class="container">
+        <a href="index.html" class="btn btn-primary back-button">Home</a>
         <button class="button-circle button-1"></button>
         <button class="button-circle button-2"></button>
         <!-- ... and so on for each button ... -->
@@ -35,4 +20,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
