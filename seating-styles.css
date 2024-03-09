@@ -28,7 +28,7 @@ body {
 }
 
 .back-button:hover {
-    background-color: blue;
+    background-color: rgb(92, 92, 249);
     /* Change color to blue when hovered */
     transform: scale(1.1);
     /* Increase size when hovered */
@@ -42,18 +42,70 @@ body {
     border: none;
     position: absolute;
 }
-
+.bt{
+    height: 20px;
+    width: 20px;
+    opacity: .8;
+}
 /* Add more classes to position each button */
 .button-101 {
     top: 68%;
     left: 43%;
-    height: 20px;
-    width: 20px;
+    
+}
+
+.button-102 {
+    top: 69%;
+    left: 52%;
+}
+
+.button-103 {
+    top: 53%;
+    left: 37%;
+}
+
+.button-104 {
+    top: 53%;
+    left: 57%;
+}
+
+.button-105 {
+    top: 36%;
+    left: 38.7%;
+}
+
+.button-106 {
+    top: 37%;
+    left: 55.6%;
 }
 
 .button-201 {
-    top: 20%;
-    left: 30%;
+    top: 79%;
+    left: 37%;
 }
 
+.button-202 {
+    top: 80%;
+    left: 40%;
+}
+
+.button-203 {
+    top: 81%;
+    left: 43%;
+}
+
+.button-204 {
+    top: 82%;
+    left: 46%;
+}
+
+.button-205 {
+    top: 83%;
+    left: 49%;
+}
+
+.button-206 {
+    top: 84%;
+    left: 52%;
+}
 /* ... and so on for each button ... */
