@@ -1,43 +1,49 @@
+/* The universal selector (*) selects all elements. Here, it sets the font family and text color for all elements. */
 * {
-    font-family: "Lato";
-    color: white;
+    font-family: "Lato"; /* Sets the font family to Lato for all elements */
+    color: white; /* Sets the text color to white for all elements */
 }
 
+/* The body selector selects the <body> element. Here, it sets the background image for the page. */
 body {
-    background-image: url('images/IndexBackground.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('images/IndexBackground.jpg'); /* Sets the background image for the page */
+    background-size: cover; /* Scales the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
 
+/* The .center-screen class selector selects elements with the class of "center-screen". Here, it centers the content on the screen. */
 .center-screen {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    position: absolute; /* Positions the element absolutely to its nearest positioned ancestor */
+    top: 50%; /* Positions the element in the middle of the container vertically */
+    left: 50%; /* Positions the element in the middle of the container horizontally */
+    transform: translate(-50%, -50%); /* Moves the element back by half of its width and height to truly center it */
+    text-align: center; /* Centers the text within the element */
 }
 
+/* The .seating-button class selector selects elements with the class of "seating-button". Here, it styles the seating button. */
 .seating-button {
-    width: 300px;
-    height: 300px;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    border-radius: 50px;
-    color: white;
-    background-color: rgba(128, 128, 128, 0.5);
-    border: none;
-    display: inline-block;
-    line-height: 200px;
-    transition: all 0.3s ease;
-    font-size: 30px;
+    width: 300px; /* Sets the width of the button */
+    height: 300px; /* Sets the height of the button */
+    margin-top: 60px; /* Sets the top margin of the button */
+    margin-bottom: 70px; /* Sets the bottom margin of the button */
+    border-radius: 50px; /* Rounds the corners of the button */
+    color: white; /* Sets the text color of the button to white */
+    background-color: rgba(128, 128, 128, 0.5); /* Sets the background color of the button to semi-transparent gray */
+    border: none; /* Removes the border of the button */
+    display: inline-block; /* Allows the button to sit side-by-side with other elements */
+    line-height: 200px; /* Centers the text within the button vertically */
+    transition: all 0.3s ease; /* Adds a transition effect to all properties of the button */
+    font-size: 30px; /* Sets the font size of the button text */
 }
 
+/* The .rounded-square:hover pseudo-class selector selects elements with the class of "rounded-square" when they are being hovered over. Here, it changes the appearance of the button when it is hovered over. */
 .rounded-square:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
+    background-color: white; /* Changes the background color of the button to white when it is hovered over */
+    color: black; /* Changes the text color of the button to black when it is hovered over */
+    transform: scale(1.1); /* Increases the size of the button by 10% when it is hovered over */
 }
 
+/* The p selector selects <p> elements. Here, it sets the font size for paragraphs. */
 p {
-    font-size: 30px;
+    font-size: 30px; /* Sets the font size for paragraphs */
 }
