@@ -21,8 +21,10 @@ body {
     margin-left: 30px;
     border-radius: 15%;
     /* Make the button more round */
+
     transition: all 0.3s ease;
     /* Smooth transition for hover effects */
+
 }
 
 .back-button:hover {
@@ -42,12 +44,14 @@ body {
 }
 
 /* Add more classes to position each button */
-.button-1 {
-    top: 20%;
-    left: 20%;
+.button-101 {
+    top: 68%;
+    left: 43%;
+    height: 20px;
+    width: 20px;
 }
 
-.button-2 {
+.button-201 {
     top: 20%;
     left: 30%;
 }
