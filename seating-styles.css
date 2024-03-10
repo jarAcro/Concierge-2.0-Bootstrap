@@ -30,7 +30,7 @@ opacity:80%;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
-    90% {opacity: 1;}
+    100% {opacity: .8;}
 }
 .back-button:hover {
     background-color: rgb(92, 92, 249);
