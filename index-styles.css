@@ -34,8 +34,12 @@ body {
     line-height: 200px; /* Centers the text within the button vertically */
     transition: all 0.3s ease; /* Adds a transition effect to all properties of the button */
     font-size: 30px; /* Sets the font size of the button text */
+    animation: fadeIn 3s ease-in-out;
 }
-
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 /* The .rounded-square:hover pseudo-class selector selects elements with the class of "rounded-square" when they are being hovered over. Here, it changes the appearance of the button when it is hovered over. */
 .rounded-square:hover {
     background-color: white; /* Changes the background color of the button to white when it is hovered over */

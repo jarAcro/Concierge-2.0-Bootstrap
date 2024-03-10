@@ -25,9 +25,13 @@ body {
     color:white;
     transition: all 0.3s ease;
     /* Smooth transition for hover effects */
-
+    animation: fadeIn 5s ease-in-out;
+opacity:80%;
 }
-
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    90% {opacity: 1;}
+}
 .back-button:hover {
     background-color: rgb(92, 92, 249);
     /* Change color to blue when hovered */
