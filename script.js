@@ -25,9 +25,18 @@ function showSectionImage(sectionId) {
 
         // Write the image and script to the popup window's document.
         popupWindow.document.write(`
+            <style>
+                @keyframes fadeIn {
+                    0% {opacity: 0;}
+                    100% {opacity: 1;}
+                }
+                .fade-in {
+                    animation: fadeIn 3s ease-in-out;
+                }
+            </style>
             <div style="text-align:center;">
                 <img src="${sectionImage}" alt="Section Image" style="max-width:100%; height:auto;">
-                <p style="font-size:30px; font-weight:bold; color:#333; margin-top:10px;">Click anywhere on the screen to close this window.</p>
+                <p class="fade-in" style="font-size:40px; font-family:Papyrus; font-weight:bold; color:#333; word-spacing:10px; margin-top:10px;">Click anywhere on the screen to close this window.</p>
             </div>
             <script>
                 // Add an event listener to the document that closes the window when the document is clicked.
